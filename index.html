@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singapore School Kinderland | Academic Portal & Lesson Hub</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef2ff',
+              100: '#e0e7ff',
+              500: '#6366f1',
+              600: '#4f46e5',
+              700: '#4338ca',
+              800: '#3730a3',
+              900: '#312e81',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      height: 6px;
+      width: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #f1f5f9;
+      border-radius: 9999px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+
+  <!-- TOP BANNER & NOTIFICATION -->
+  <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white border-b border-indigo-900/50 sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- School Crest & Title -->
+        <div class="flex items-center gap-3 sm:gap-4">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/25 ring-2 ring-white/10 shrink-0">
+            <span class="text-2xl">🏫</span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <h1 class="text-lg sm:text-xl font-bold tracking-tight text-white leading-tight">
+                Singapore School Kinderland
+              </h1>
+              <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse mr-1.5"></span>
+                Term 2 Active
+              </span>
+            </div>
+            <p class="text-xs text-indigo-200/80 font-medium">
+              Academic Teacher's Hub • Lesson Plans • Exam Vault • Diary & Classroom
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Quick Actions -->
+        <div class="flex items-center gap-2 sm:gap-3">
+          <!-- Master Syllabus Button -->
+          <button onclick="openPreview('downloads/IT_Term_2_Syllabus_Master.pdf', 'IT_Term_2_Syllabus_Master.pdf', 'Master Syllabus', 'All Classes • Master Term 2 Syllabus')" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-950 text-xs font-bold transition-all shadow-sm active:scale-95" title="View or download Master Term 2 Syllabus">
+            <span>📋 Master Syllabus</span>
+          </button>
+
+          <!-- Mobile friendly indicator badge -->
+          <div class="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-xs text-indigo-100">
+            <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+            <span>Mobile & Desktop Accessible</span>
+          </div>
+
+          <!-- Total files pill -->
+          <div id="headerFileCount" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-indigo-600/30 text-indigo-200 border border-indigo-400/20 text-xs font-semibold">
+            <span>📁 197+ Files Ready</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- SUBHEADER / SEARCH & TERM SELECTOR -->
+  <section class="bg-white border-b border-slate-200/80 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        
+        <!-- TERM TOGGLE SWITCH -->
+        <div class="flex items-center p-1 bg-slate-100 rounded-2xl border border-slate-200/90 shadow-inner w-full md:w-auto">
+          <button id="term2Btn" onclick="switchTerm('Term 2')" class="flex-1 md:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all shadow-sm bg-indigo-600 text-white">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>✨ Term 2 (Active Academic Term)</span>
+          </button>
+          <button id="term1Btn" onclick="switchTerm('Term 1')" class="flex-1 md:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all text-slate-600 hover:text-slate-900">
+            <span>📦 Term 1 (Previous Term Archive)</span>
+          </button>
+        </div>
+
+        <!-- SEARCH BOX -->
+        <div class="relative w-full md:w-80">
+          <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <input 
+            type="text" 
+            id="searchInput" 
+            oninput="handleSearch(this.value)"
+            placeholder="Search topics, weeks, CT 1, worksheets, pages..." 
+            class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all placeholder:text-slate-400 font-medium"
+          >
+          <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASS SELECTOR HORIZONTAL SCROLLER -->
+  <section class="bg-slate-100/70 border-b border-slate-200 sticky top-20 z-40 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5">
+      <div id="classList" class="flex items-center gap-2 overflow-x-auto pb-1 custom-scroll">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 flex-1 w-full">
+
+    <!-- SEARCH RESULTS VIEW (Visible when searching) -->
+    <div id="searchResultsSection" class="hidden mb-8">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-base sm:text-lg font-bold text-slate-800 flex items-center gap-2">
+          <span>🔍 Search Results:</span>
+          <span id="searchResultCount" class="text-indigo-600 font-semibold text-sm"></span>
+        </h2>
+        <button onclick="clearSearch()" class="text-xs text-indigo-600 hover:underline font-semibold">Clear Search</button>
+      </div>
+      <div id="searchResultsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+
+    <!-- ACTIVE CLASS DETAIL WRAPPER -->
+    <div id="classDetailSection" class="space-y-6">
+      
+      <!-- CLASS BANNER CARD -->
+      <div id="classBanner" class="rounded-3xl p-6 sm:p-8 bg-gradient-to-r from-indigo-700 via-indigo-600 to-indigo-800 text-white shadow-xl relative overflow-hidden transition-all duration-300">
+        <!-- Background decoration -->
+        <div class="absolute -right-12 -top-12 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="absolute -left-12 -bottom-12 w-48 h-48 bg-indigo-500/20 rounded-full blur-2xl pointer-events-none"></div>
+
+        <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="flex items-start sm:items-center gap-4">
+            <div id="classIcon" class="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-3xl shadow-inner border border-white/20 shrink-0">
+              🐣
+            </div>
+            <div>
+              <div class="flex items-center gap-2.5 flex-wrap">
+                <h2 id="className" class="text-2xl sm:text-3xl font-extrabold tracking-tight">Primary 1</h2>
+                <span id="classGradeBadge" class="px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-white border border-white/30 backdrop-blur-sm">
+                  Primary Level 1
+                </span>
+              </div>
+              <p id="classSubjects" class="text-sm text-indigo-100 mt-1 font-medium flex items-center gap-2">
+                <span>📚 Subjects: IT, English</span>
+                <span>•</span>
+                <span id="classFreqBadge" class="text-amber-300 font-semibold">2 Classes / Week</span>
+              </p>
+            </div>
+          </div>
+
+          <!-- Quick Stats Cards in Banner -->
+          <div class="grid grid-cols-3 gap-2.5 sm:gap-3 text-center">
+            <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2.5">
+              <div id="bannerFileCount" class="text-lg sm:text-xl font-extrabold text-white">0</div>
+              <div class="text-[11px] text-indigo-200 uppercase tracking-wider font-semibold">Documents</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2.5">
+              <div id="bannerWeekCount" class="text-lg sm:text-xl font-extrabold text-amber-300">8</div>
+              <div class="text-[11px] text-indigo-200 uppercase tracking-wider font-semibold">Weeks Planned</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2.5">
+              <div id="bannerExamCount" class="text-lg sm:text-xl font-extrabold text-emerald-300">CT 1 & 2</div>
+              <div class="text-[11px] text-indigo-200 uppercase tracking-wider font-semibold">Exam Papers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DEDICATED TERM PLAN & SYLLABUS ACTION BAR -->
+      <div id="classSyllabusBar" class="bg-gradient-to-r from-amber-500/10 via-indigo-50/80 to-emerald-500/10 border border-indigo-200/90 rounded-2xl p-4 sm:p-5 shadow-sm transition-all">
+        <!-- Dynamically injected via renderSyllabusBar() in app.js -->
+      </div>
+
+      <!-- VIEW TAB BUTTONS (Weekly Plan | Exam Vault | Worksheets | All Files) -->
+      <div class="flex items-center gap-2 border-b border-slate-200 pb-2 overflow-x-auto custom-scroll">
+        <button onclick="switchTab('weekly')" id="tabWeeklyBtn" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold border transition-all whitespace-nowrap bg-indigo-600 text-white border-indigo-600 shadow-sm">
+          <span>📅 Weekly Lesson Plans & Diary (Week by Week)</span>
+        </button>
+        <button onclick="switchTab('exams')" id="tabExamsBtn" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all whitespace-nowrap bg-white text-slate-700 border-slate-200 hover:bg-slate-50">
+          <span>🎯 Assessment Vault (CT 1, CT 2, Exams)</span>
+        </button>
+        <button onclick="switchTab('worksheets')" id="tabWorksheetsBtn" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all whitespace-nowrap bg-white text-slate-700 border-slate-200 hover:bg-slate-50">
+          <span>📝 Worksheets & Solution Keys</span>
+        </button>
+        <button onclick="switchTab('allFiles')" id="tabAllFilesBtn" class="flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all whitespace-nowrap bg-white text-slate-700 border-slate-200 hover:bg-slate-50">
+          <span>🗂️ All Class Files Direct Download</span>
+        </button>
+      </div>
+
+      <!-- TAB 1: WEEKLY PLAN & TEACHER'S TOOLKIT (TERM 2 FOCUS) -->
+      <div id="viewWeekly" class="space-y-4">
+        <div class="bg-indigo-50/80 border border-indigo-200/80 rounded-2xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">💡</span>
+            <div>
+              <h3 class="text-sm font-bold text-indigo-950">Teacher's Academic Toolkit</h3>
+              <p class="text-xs text-indigo-800/80">
+                Review weekly lesson plans and use the <strong class="font-bold text-indigo-900">1-Click Copy Buttons</strong> for instant Google Classroom posts, Student Diary notes, and WhatsApp parent alerts.
+              </p>
+            </div>
+          </div>
+          <div class="text-xs text-indigo-700 font-semibold bg-white px-3 py-1.5 rounded-lg border border-indigo-200 shrink-0">
+            Weekly Routine & Classroom Sync
+          </div>
+        </div>
+
+        <!-- Weekly Accordion / Cards List -->
+        <div id="weeklyPlanContainer" class="space-y-4">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- TAB 2: EXAMS & ASSESSMENTS VAULT -->
+      <div id="viewExams" class="hidden space-y-6">
+        <div class="bg-rose-50 border border-rose-200 rounded-2xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">🎯</span>
+            <div>
+              <h3 class="text-sm font-bold text-rose-950">Assessment & Exam Paper Vault (Split Syllabus Architecture)</h3>
+              <p class="text-xs text-rose-800">
+                <strong>CT 1:</strong> First Half Syllabus (Weeks 1–4) • <strong>CT 2:</strong> Second Half Syllabus (Weeks 5–8, non-overlapping). Ready-to-print Question Papers and Teacher Answer Keys.
+              </p>
+            </div>
+          </div>
+          <button onclick="openPreview('downloads/IT_Term_2_Syllabus_Master.pdf', 'IT_Term_2_Syllabus_Master.pdf', 'Master Syllabus', 'Assessment Syllabus Mapping')" class="px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition-all shadow-xs shrink-0 active:scale-95">
+            📋 View Syllabus Mapping
+          </button>
+        </div>
+
+        <div id="examsGrid" class="space-y-6">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- TAB 3: WORKSHEETS & SOLUTIONS -->
+      <div id="viewWorksheets" class="hidden space-y-6">
+        <div class="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl">📚</span>
+            <div>
+              <h3 class="text-sm font-bold text-emerald-950">Worksheets & Solution Guides</h3>
+              <p class="text-xs text-emerald-800">
+                Printable practice worksheets for students and complete teacher solution keys.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="worksheetsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- TAB 4: ALL FILES DIRECT DOWNLOAD -->
+      <div id="viewAllFiles" class="hidden space-y-4">
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div class="text-sm font-bold text-slate-800 flex items-center gap-2">
+            <span>All Class Files:</span>
+            <span id="allFilesCountBadge" class="text-indigo-600 bg-indigo-50 px-2.5 py-0.5 rounded-full text-xs font-semibold border border-indigo-200"></span>
+          </div>
+          <!-- Filter pills for files -->
+          <div class="flex items-center gap-1.5 overflow-x-auto text-xs font-medium">
+            <button onclick="filterFilesByType('all')" class="fileFilterBtn px-3 py-1.5 rounded-lg bg-slate-800 text-white font-semibold">All Files</button>
+            <button onclick="filterFilesByType('docx')" class="fileFilterBtn px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:bg-slate-50">Word (.docx)</button>
+            <button onclick="filterFilesByType('pdf')" class="fileFilterBtn px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:bg-slate-50">PDF (.pdf)</button>
+            <button onclick="filterFilesByType('answer')" class="fileFilterBtn px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 hover:bg-slate-50">Answer Keys</button>
+          </div>
+        </div>
+
+        <div id="allFilesTableWrapper" class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-slate-50 border-b border-slate-200 text-xs uppercase font-bold text-slate-500 tracking-wider">
+                <tr>
+                  <th class="py-3.5 px-4">File Name</th>
+                  <th class="py-3.5 px-4">Category / Badge</th>
+                  <th class="py-3.5 px-4">Term</th>
+                  <th class="py-3.5 px-4">Size</th>
+                  <th class="py-3.5 px-4 text-right">Download</th>
+                </tr>
+              </thead>
+              <tbody id="allFilesTableBody" class="divide-y divide-slate-100">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- HOW TO SYNC & HOSTING FOOTER CARD -->
+  <footer class="bg-white border-t border-slate-200 mt-16 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Info 1 -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+          <div class="flex items-center gap-2.5 text-indigo-700 font-bold text-sm mb-2">
+            <span class="text-lg">🔄</span>
+            <span>Automated AI Sync Engine</span>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            When new exam papers or lesson plans are generated in the class folders, simply execute <code class="bg-slate-200/80 px-1.5 py-0.5 rounded text-indigo-900 font-mono text-[11px]">sync-portal.bat</code> to immediately update all files and weekly lesson plans.
+          </p>
+        </div>
+
+        <!-- Info 2 -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+          <div class="flex items-center gap-2.5 text-emerald-700 font-bold text-sm mb-2">
+            <span class="text-lg">☁️</span>
+            <span>Accessible from Any Device</span>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Easily host this portal on Vercel or Netlify for free. Teachers can securely access lesson plans, download materials, and copy announcements directly from smartphones or lab computers.
+          </p>
+        </div>
+
+        <!-- Info 3 -->
+        <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80">
+          <div class="flex items-center gap-2.5 text-amber-700 font-bold text-sm mb-2">
+            <span class="text-lg">⚡</span>
+            <span>1-Click Copy Technology</span>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Instantly copy ready-to-post announcements for Google Classroom, student diaries, and WhatsApp broadcasts. Eliminate manual typing and keep parents 100% updated.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="mt-8 pt-6 border-t border-slate-200 text-center text-xs text-slate-500 font-medium flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div>
+          © 2026-2027 Singapore School Kinderland • Developed for Teachers & Academic Coordination
+        </div>
+        <div class="flex items-center gap-4">
+          <span class="flex items-center gap-1.5 text-emerald-600 font-semibold">
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+            Cloud Hosting Ready
+          </span>
+          <span>•</span>
+          <span>Lightweight Fast PWA</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST NOTIFICATION POPUP -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="bg-slate-900/95 text-white backdrop-blur-md px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 border border-slate-700">
+      <span class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+      </span>
+      <div>
+        <p id="toastMessage" class="text-xs sm:text-sm font-semibold text-slate-100">Copied to clipboard!</p>
+        <p class="text-[11px] text-slate-400 font-medium">Ready to paste directly into Google Classroom or student diary.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- IN-BROWSER PREVIEW MODAL (VIEW WITHOUT DOWNLOADING) -->
+  <div id="previewModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-2 sm:p-4 bg-slate-900/80 backdrop-blur-sm transition-all duration-200" onclick="handlePreviewBackdropClick(event)">
+    <div class="relative w-full max-w-5xl h-[92vh] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-700/30" onclick="event.stopPropagation()">
+      
+      <!-- Modal Header -->
+      <div class="px-5 py-3.5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white flex items-center justify-between gap-3 shrink-0">
+        <div class="flex items-center gap-3 min-w-0">
+          <div id="previewFileIcon" class="w-9 h-9 rounded-xl bg-indigo-600/40 border border-indigo-400/30 flex items-center justify-center text-lg shrink-0">
+            📄
+          </div>
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 id="previewFileName" class="text-xs sm:text-sm font-bold text-white truncate max-w-sm sm:max-w-md">
+                Document Preview
+              </h3>
+              <span id="previewFileBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-500/30 text-indigo-200 border border-indigo-400/20">
+                PDF
+              </span>
+            </div>
+            <p id="previewFileInfo" class="text-[11px] text-indigo-200/70 truncate">
+              Preview Mode • Viewing in Browser
+            </p>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center gap-2 shrink-0">
+          <!-- Open in Dedicated Tab -->
+          <a id="previewNewTabBtn" href="#" target="_blank" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-all border border-white/10" title="Open in new browser tab">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+            <span>Full Tab</span>
+          </a>
+          
+          <!-- Direct Download Button -->
+          <a id="previewDownloadBtn" href="#" download class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-sm">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            <span>Download</span>
+          </a>
+
+          <!-- Close Button -->
+          <button onclick="closePreviewModal()" class="w-8 h-8 rounded-xl bg-white/10 hover:bg-rose-600 text-white flex items-center justify-center transition-all ml-1" title="Close Preview (Esc)">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Banner Notice (for converted DOCX or info) -->
+      <div id="previewBannerNotice" class="hidden px-4 py-2 bg-amber-50 border-b border-amber-200 text-amber-900 text-xs flex items-center justify-between">
+        <span id="previewBannerText">👁️ Showing instant PDF preview of this document.</span>
+        <span class="text-[11px] text-amber-700 font-medium">Click "Download" for the editable Microsoft Word file</span>
+      </div>
+
+      <!-- Modal Body (Content Viewer) -->
+      <div id="previewModalBody" class="flex-1 bg-slate-100 overflow-hidden flex items-center justify-center relative p-1 sm:p-2">
+        <!-- Content injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- LOAD DATA & MAIN APPLICATION -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
