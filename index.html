@@ -464,6 +464,14 @@
     </div>
   </div>
 
+  <!-- LOAD PDF.JS FOR IN-BROWSER MOBILE PDF RENDERING (ZERO DOWNLOADS) -->
+  <script src="pdf.min.js"></script>
+  <script>
+    if (window.pdfjsLib) {
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
+    }
+  </script>
+
   <!-- LOAD DATA & MAIN APPLICATION -->
   <script src="data.js"></script>
   <script src="app.js"></script>
