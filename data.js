@@ -3,7 +3,7 @@ window.SCHOOL_DATA = {
   "title": "Teacher & Academic Resource Portal",
   "currentTerm": "Term 2",
   "academicYear": "2026-2027",
-  "lastUpdated": "2026-10-25T03:09:15.225Z",
+  "lastUpdated": "2026-10-26T03:52:54.834Z",
   "classes": [
     {
       "id": "p1",
@@ -296,8 +296,8 @@ window.SCHOOL_DATA = {
               "homework": "Read Pages 26–27. Point to and explain the Monitor and CPU to parents at home. Complete Workbook Lesson 1 (Trace & Write).",
               "diary": "Read TB Pg 26-27 (Monitor & CPU). Complete Workbook Lesson 1.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -309,8 +309,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 2: Trace and practice holding the mouse gently.",
               "diary": "Read TB Pg 28-29. Complete Workbook Lesson 2.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.26_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -328,8 +328,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 30–31. Complete Workbook Lesson 3 (Printer & Speakers).",
               "diary": "Read TB Pg 30-31. Workbook Lesson 3.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.27_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -341,8 +341,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 4: Match Laptop parts and answer review questions.",
               "diary": "Read TB Pg 32-33. Complete Workbook Lesson 4.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.28_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -360,8 +360,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 34–36. Workbook Lesson 5: Match action to reason.",
               "diary": "Read TB Pg 34-36. Workbook Lesson 5 (Logic: Action & Reason).",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.38_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -373,8 +373,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 6: Weather and logical clothing matching.",
               "diary": "Complete Workbook Lesson 6. Connect actions to weather reasons.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.40_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -392,8 +392,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 7: Connect the logical pairs.",
               "diary": "Read TB Pg 39-41. Complete Workbook Lesson 7.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.41_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -405,8 +405,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 8: Odd one out exercise.",
               "diary": "Complete Workbook Lesson 8. Sort everyday items into groups.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.42_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -424,8 +424,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 9 (Ch 4 Review Q1 & Q2).",
               "diary": "Revise Chapter 4 spelling and definitions. Workbook Lesson 9.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -437,8 +437,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Worksheet Section B & C (True/False & Picture Match).",
               "diary": "Complete Worksheet Section B & C.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.26_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -456,8 +456,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 11 (Logical Reasoning drills).",
               "diary": "Complete Workbook Lesson 11.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.38_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -469,8 +469,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 12: Group Sorting table.",
               "diary": "Review Chapter 5 for Term Review. Workbook Lesson 12.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.42_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -488,8 +488,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire Workbook Lessons 1–14 for Term Exam next week.",
               "diary": "Prepare for Term 2 Exam. Revise Chapters 4 & 5.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -501,8 +501,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Comprehensive Revision Sheet at home.",
               "diary": "Solve Term 2 Model Paper. Exam next week!",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.27_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -520,8 +520,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -533,8 +533,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -554,8 +554,8 @@ window.SCHOOL_DATA = {
               "homework": "Read Pages 26–27. Point to and explain the Monitor and CPU to parents at home. Complete Workbook Lesson 1 (Trace & Write).",
               "diary": "Read TB Pg 26-27 (Monitor & CPU). Complete Workbook Lesson 1.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -567,8 +567,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 2: Trace and practice holding the mouse gently.",
               "diary": "Read TB Pg 28-29. Complete Workbook Lesson 2.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.26_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -586,8 +586,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 30–31. Complete Workbook Lesson 3 (Printer & Speakers).",
               "diary": "Read TB Pg 30-31. Workbook Lesson 3.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.27_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -599,8 +599,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 4: Match Laptop parts and answer review questions.",
               "diary": "Read TB Pg 32-33. Complete Workbook Lesson 4.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.28_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -618,8 +618,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 34–36. Workbook Lesson 5: Match action to reason.",
               "diary": "Read TB Pg 34-36. Workbook Lesson 5 (Logic: Action & Reason).",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.38_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -631,8 +631,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 6: Weather and logical clothing matching.",
               "diary": "Complete Workbook Lesson 6. Connect actions to weather reasons.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.40_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -650,8 +650,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 7: Connect the logical pairs.",
               "diary": "Read TB Pg 39-41. Complete Workbook Lesson 7.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.41_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -663,8 +663,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 8: Odd one out exercise.",
               "diary": "Complete Workbook Lesson 8. Sort everyday items into groups.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.42_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -682,8 +682,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 9 (Ch 4 Review Q1 & Q2).",
               "diary": "Revise Chapter 4 spelling and definitions. Workbook Lesson 9.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -695,8 +695,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Worksheet Section B & C (True/False & Picture Match).",
               "diary": "Complete Worksheet Section B & C.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.26_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -714,8 +714,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 11 (Logical Reasoning drills).",
               "diary": "Complete Workbook Lesson 11.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.38_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -727,8 +727,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Workbook Lesson 12: Group Sorting table.",
               "diary": "Review Chapter 5 for Term Review. Workbook Lesson 12.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.42_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -746,8 +746,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire Workbook Lessons 1–14 for Term Exam next week.",
               "diary": "Prepare for Term 2 Exam. Revise Chapters 4 & 5.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -759,8 +759,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Comprehensive Revision Sheet at home.",
               "diary": "Solve Term 2 Model Paper. Exam next week!",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.27_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -778,8 +778,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -791,8 +791,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.25_PM.jpeg",
-              "hwFileUrl": "downloads/p1/P1_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p1/P1_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p1/class_sheets/P1_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p1/class_sheets/P1_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -1781,8 +1781,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 18-20. Complete Workbook Lesson 2: The QWERTY keyboard rows.",
               "diary": "Read TB Pg 18-20. Complete Workbook Lesson 2.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1794,8 +1794,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 3: Home row finger placement (ASDF JKL;).",
               "diary": "Read TB Pg 21-22. Workbook Lesson 3.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.42_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -1813,8 +1813,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 1: Fill in blanks with Notepad terms.",
               "diary": "Read TB Pg 23-26. Complete Workbook Lesson 1.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.43_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1826,8 +1826,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 6 & 7: Desktop and Icons activity.",
               "diary": "Read TB Pg 27-30. Complete Workbook Lesson 6.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.44_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -1845,8 +1845,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 10: Shortcut menu & wallpaper customization.",
               "diary": "Read TB Pg 31-34. Complete Workbook Lesson 10.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.55_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1858,8 +1858,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 11: Crossword puzzle and review drill.",
               "diary": "Read TB Pg 35-38. Complete Workbook Lesson 11.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.56_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -1877,8 +1877,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 12: What is an Algorithm?",
               "diary": "Read TB Pg 39-43. Write steps to make a sandwich.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.57_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1890,8 +1890,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 13: Cooking & Cake baking algorithms.",
               "diary": "Read TB Pg 44-48. Complete Workbook Lesson 13.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.58_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -1909,8 +1909,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 1 (Ch 2B Review).",
               "diary": "Complete Worksheet Pg 1. Revise Keyboard keys.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1922,8 +1922,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 2 (Ch 3 Review).",
               "diary": "Complete Worksheet Pg 2.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.44_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -1941,8 +1941,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 3 (Ch 4 Sequencing).",
               "diary": "Complete Worksheet Pg 3.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.57_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1954,8 +1954,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 4.",
               "diary": "Complete Worksheet Pg 4. Revise Ch 4.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.58_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -1973,8 +1973,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire 16-page Workbook for Term 2 Exam next week.",
               "diary": "Revise Ch 2B, 3 & 4 for Term 2 Exam.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -1986,8 +1986,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Class Test 1 practice paper at home.",
               "diary": "Solve Model Paper. Prepare for CT 1.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.43_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -2005,8 +2005,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2018,8 +2018,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -2039,8 +2039,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 18-20. Complete Workbook Lesson 2: The QWERTY keyboard rows.",
               "diary": "Read TB Pg 18-20. Complete Workbook Lesson 2.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2052,8 +2052,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 3: Home row finger placement (ASDF JKL;).",
               "diary": "Read TB Pg 21-22. Workbook Lesson 3.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.42_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -2071,8 +2071,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 1: Fill in blanks with Notepad terms.",
               "diary": "Read TB Pg 23-26. Complete Workbook Lesson 1.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.43_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2084,8 +2084,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 6 & 7: Desktop and Icons activity.",
               "diary": "Read TB Pg 27-30. Complete Workbook Lesson 6.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.44_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -2103,8 +2103,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 10: Shortcut menu & wallpaper customization.",
               "diary": "Read TB Pg 31-34. Complete Workbook Lesson 10.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.55_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2116,8 +2116,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 11: Crossword puzzle and review drill.",
               "diary": "Read TB Pg 35-38. Complete Workbook Lesson 11.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.56_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -2135,8 +2135,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 12: What is an Algorithm?",
               "diary": "Read TB Pg 39-43. Write steps to make a sandwich.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.57_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2148,8 +2148,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 13: Cooking & Cake baking algorithms.",
               "diary": "Read TB Pg 44-48. Complete Workbook Lesson 13.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.58_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -2167,8 +2167,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 1 (Ch 2B Review).",
               "diary": "Complete Worksheet Pg 1. Revise Keyboard keys.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2180,8 +2180,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 2 (Ch 3 Review).",
               "diary": "Complete Worksheet Pg 2.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.44_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -2199,8 +2199,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 3 (Ch 4 Sequencing).",
               "diary": "Complete Worksheet Pg 3.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.57_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2212,8 +2212,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Worksheet Page 4.",
               "diary": "Complete Worksheet Pg 4. Revise Ch 4.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.58_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -2231,8 +2231,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire 16-page Workbook for Term 2 Exam next week.",
               "diary": "Revise Ch 2B, 3 & 4 for Term 2 Exam.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2244,8 +2244,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Class Test 1 practice paper at home.",
               "diary": "Solve Model Paper. Prepare for CT 1.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.43_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -2263,8 +2263,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -2276,8 +2276,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.28.41_AM.jpeg",
-              "hwFileUrl": "downloads/p2/P2_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p2/P2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p2/class_sheets/P2_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p2/class_sheets/P2_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -3372,8 +3372,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 18-20. Complete Workbook Lesson 1 (LAN, MAN, WAN definitions).",
               "diary": "Read TB Pg 18-20. Workbook Lesson 1 (Network Types).",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3385,8 +3385,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 3: Internet vs WWW.",
               "diary": "Read TB Pg 21-23. Complete Workbook Lesson 3.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.27_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -3404,8 +3404,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 4 & 5: Web Browsers and Safe Netiquette.",
               "diary": "Read TB Pg 24-28. Complete Workbook Lesson 4.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.28_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3417,8 +3417,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 6: Traditional Shopping vs E-Commerce.",
               "diary": "Read TB Pg 29-33. Complete Workbook Lesson 6.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.31_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -3436,8 +3436,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 7: Match E-Commerce models to examples.",
               "diary": "Read TB Pg 34-36. Workbook Lesson 7 (E-Commerce Models).",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.39_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3449,8 +3449,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 8 & 9: Payment modes and safety rules.",
               "diary": "Read TB Pg 37-38. Complete Workbook Lesson 8.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.40_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -3468,8 +3468,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 10 & 11: MS Word interface & editing shortcuts.",
               "diary": "Read TB Pg 39-44. Workbook Lesson 10.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.41_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3481,8 +3481,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 12 & 13: Font formatting & alignment.",
               "diary": "Read TB Pg 45-50. Complete Workbook Lesson 12.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.43_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -3500,8 +3500,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Practice Worksheet Section A & B.",
               "diary": "Complete Worksheet Section A & B.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3513,8 +3513,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Practice Worksheet Section C & D.",
               "diary": "Complete Worksheet Section C & D.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.31_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -3532,8 +3532,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 14: Find & Replace and Error correction.",
               "diary": "Revise Word shortcuts. Complete Workbook Lesson 14.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.41_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3545,8 +3545,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 15: Crossword puzzle.",
               "diary": "Complete Workbook Lesson 15.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.44_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -3564,8 +3564,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire 16-page Workbook for Term 2 Exam next week.",
               "diary": "Prepare for Term 2 Exam. Revise Ch 3, 4, 5A.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3577,8 +3577,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Class Test 1 practice paper at home.",
               "diary": "Solve Model Paper. Prepare for CT 1.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.28_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -3596,8 +3596,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3609,8 +3609,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -3630,8 +3630,8 @@ window.SCHOOL_DATA = {
               "homework": "Read TB Pg 18-20. Complete Workbook Lesson 1 (LAN, MAN, WAN definitions).",
               "diary": "Read TB Pg 18-20. Workbook Lesson 1 (Network Types).",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_01_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_01_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3643,8 +3643,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 3: Internet vs WWW.",
               "diary": "Read TB Pg 21-23. Complete Workbook Lesson 3.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.27_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_02_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_02_Answer_Key.pdf"
             }
           ]
         },
@@ -3662,8 +3662,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 4 & 5: Web Browsers and Safe Netiquette.",
               "diary": "Read TB Pg 24-28. Complete Workbook Lesson 4.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.28_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_03_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_03_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3675,8 +3675,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 6: Traditional Shopping vs E-Commerce.",
               "diary": "Read TB Pg 29-33. Complete Workbook Lesson 6.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.31_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_04_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_04_Answer_Key.pdf"
             }
           ]
         },
@@ -3694,8 +3694,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 7: Match E-Commerce models to examples.",
               "diary": "Read TB Pg 34-36. Workbook Lesson 7 (E-Commerce Models).",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.39_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_05_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_05_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3707,8 +3707,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 8 & 9: Payment modes and safety rules.",
               "diary": "Read TB Pg 37-38. Complete Workbook Lesson 8.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.40_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_06_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_06_Answer_Key.pdf"
             }
           ]
         },
@@ -3726,8 +3726,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 10 & 11: MS Word interface & editing shortcuts.",
               "diary": "Read TB Pg 39-44. Workbook Lesson 10.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.41_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_07_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_07_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3739,8 +3739,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 12 & 13: Font formatting & alignment.",
               "diary": "Read TB Pg 45-50. Complete Workbook Lesson 12.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.43_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_08_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_08_Answer_Key.pdf"
             }
           ]
         },
@@ -3758,8 +3758,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Practice Worksheet Section A & B.",
               "diary": "Complete Worksheet Section A & B.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_09_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_09_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3771,8 +3771,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Comprehensive Practice Worksheet Section C & D.",
               "diary": "Complete Worksheet Section C & D.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.31_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_10_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_10_Answer_Key.pdf"
             }
           ]
         },
@@ -3790,8 +3790,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 14: Find & Replace and Error correction.",
               "diary": "Revise Word shortcuts. Complete Workbook Lesson 14.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.41_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_11_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_11_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3803,8 +3803,8 @@ window.SCHOOL_DATA = {
               "homework": "Complete Workbook Lesson 15: Crossword puzzle.",
               "diary": "Complete Workbook Lesson 15.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.44_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_Answer_Key_16Pages.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_12_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_12_Answer_Key.pdf"
             }
           ]
         },
@@ -3822,8 +3822,8 @@ window.SCHOOL_DATA = {
               "homework": "Revise entire 16-page Workbook for Term 2 Exam next week.",
               "diary": "Prepare for Term 2 Exam. Revise Ch 3, 4, 5A.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_13_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_13_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3835,8 +3835,8 @@ window.SCHOOL_DATA = {
               "homework": "Solve Class Test 1 practice paper at home.",
               "diary": "Solve Model Paper. Prepare for CT 1.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.28_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_14_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_14_Answer_Key.pdf"
             }
           ]
         },
@@ -3854,8 +3854,8 @@ window.SCHOOL_DATA = {
               "homework": "Relax! Term 2 Exam completed successfully.",
               "diary": "Term 2 Exam completed today.",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_15_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_15_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -3867,8 +3867,8 @@ window.SCHOOL_DATA = {
               "homework": "None.",
               "diary": "Term 2 Results announced. Well done!",
               "bookPageUrl": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.26_AM.jpeg",
-              "hwFileUrl": "downloads/p3/P3_IT_Term2_Comprehensive_Workbook_16Pages.pdf",
-              "answerKeyUrl": "downloads/p3/P3_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "hwFileUrl": "downloads/p3/class_sheets/P3_Term2_Class_16_Worksheet.pdf",
+              "answerKeyUrl": "downloads/p3/class_sheets/P3_Term2_Class_16_Answer_Key.pdf"
             }
           ]
         }
@@ -9275,9 +9275,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining transmission interference (noise, crosstalk). Calculating even and odd parity bits for 8-bit bytes.",
               "homework": "Read TB Pg 54–55. Complete parity bit practice questions in notebook.",
               "diary": "Read TB Pg 54-55 (Parity bit calculation).",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9288,9 +9288,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Constructing horizontal parity bits and vertical parity byte matrix. Pinpointing the intersection of row/column parity errors to auto-correct flipped bits.",
               "homework": "Read TB Pg 56–57. Solve Parity Block Grid worksheet.",
               "diary": "Solve Parity Block Grid worksheet problems.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9307,9 +9307,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Tracing checksum generation at sender, transmission, and recalculation at recipient. Understanding mismatch handling.",
               "homework": "Read TB Pg 58–59. Write step-by-step checksum verification process.",
               "diary": "Read TB Pg 58-59 on Checksum verification.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9320,9 +9320,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Diagramming Echo Check. Critiquing echo check drawbacks: doubling bandwidth transmission and ambiguity if error occurred during initial send or echo return.",
               "homework": "Read TB Pg 59–60. Answer: Why is Echo Check rarely used in high-speed networks?",
               "diary": "Answer Echo Check question in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9339,9 +9339,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Distinguishing data entry errors (transposition, phonetic errors) from transmission errors. Calculating ISBN-13 and Modulo 11 check digits.",
               "homework": "Read TB Pg 60–61. Verify check digit for given sample barcode numbers.",
               "diary": "Read TB Pg 60-61. Solve Check Digit problems.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9352,9 +9352,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Tracing ARQ state machine: Positive Acknowledgements (ACK), Negative Acknowledgements (NAK), and timeout-triggered retransmissions.",
               "homework": "Draw ARQ protocol flowchart for both successful transfer and packet loss timeout scenarios.",
               "diary": "Draw ARQ protocol flowchart in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             }
           ]
         },
@@ -9371,9 +9371,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving Cambridge exam-style comparison tables and multi-part error detection problems.",
               "homework": "Revise TB Pg 54–62 thoroughly for Class Test 1.",
               "diary": "Revise Chapter 2.2 for Class Test 1.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9384,9 +9384,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting Class Test 1 on Parity, Checksum, Echo Check, Check Digits, and ARQ.",
               "homework": "Review test questions and reflect on difficult concepts.",
               "diary": "CT 1 completed. Self-review error detection topics.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9403,9 +9403,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Defining encryption terminology. Demonstrating shift ciphers and modern mathematical key algorithms.",
               "homework": "Read TB Pg 63–65. Encrypt and decrypt a 20-character secret message using a Caesar cipher key.",
               "diary": "Read TB Pg 63-65 on Encryption basics.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9416,9 +9416,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing why transmitting a shared key across insecure channels compromises symmetric encryption. Exploring brute-force attack complexity.",
               "homework": "Read TB Pg 66–67. Explain the Key Distribution Problem in 4-5 bullet points.",
               "diary": "Summarize Key Distribution Problem in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -9435,9 +9435,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Simulating secure exchange: Public key used for encryption by anyone; matching Private key known ONLY to receiver for decryption.",
               "homework": "Read TB Pg 68–69. Diagram how Alice sends a confidential message to Bob using Bob’s public key.",
               "diary": "Read TB Pg 68-69. Diagram Public/Private key workflow.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9448,9 +9448,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Comparing computational overhead, processing speed, key lengths, and use cases (bulk data vs session key handshake).",
               "homework": "Complete Symmetric vs Asymmetric comparison table in notebook.",
               "diary": "Complete Encryption comparison table.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -9467,9 +9467,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining one-way cryptographic hash functions. Tracing how a sender signs a hash with their private key to guarantee non-repudiation and integrity.",
               "homework": "Read TB Pg 71–72. Explain how Digital Signatures prove message authenticity.",
               "diary": "Read TB Pg 71-72 on Digital Signatures.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9480,9 +9480,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Inspecting SSL/TLS certificate of school web portal in browser. Explaining Certificate Authority (CA) validation and HTTPS padlock icon.",
               "homework": "Read TB Pg 73–74. List 5 pieces of information found inside a Digital Certificate.",
               "diary": "List 5 items inside a Digital Certificate in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             }
           ]
         },
@@ -9499,9 +9499,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving mixed Cambridge past paper questions under timed exam conditions with immediate teacher debrief.",
               "homework": "Revise full Term 2 syllabus for Class Test 2.",
               "diary": "Final revision for Class Test 2.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9512,9 +9512,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting Class Test 2 (Error Detection + Encryption, 25 Marks).",
               "homework": "End of Term 2 reflection and portfolio submission.",
               "diary": "Term 2 Class Test 2 completed successfully.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Answer_Key.pdf"
             }
           ]
         }
@@ -9533,9 +9533,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining transmission interference (noise, crosstalk). Calculating even and odd parity bits for 8-bit bytes.",
               "homework": "Read TB Pg 54–55. Complete parity bit practice questions in notebook.",
               "diary": "Read TB Pg 54-55 (Parity bit calculation).",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9546,9 +9546,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Constructing horizontal parity bits and vertical parity byte matrix. Pinpointing the intersection of row/column parity errors to auto-correct flipped bits.",
               "homework": "Read TB Pg 56–57. Solve Parity Block Grid worksheet.",
               "diary": "Solve Parity Block Grid worksheet problems.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9565,9 +9565,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Tracing checksum generation at sender, transmission, and recalculation at recipient. Understanding mismatch handling.",
               "homework": "Read TB Pg 58–59. Write step-by-step checksum verification process.",
               "diary": "Read TB Pg 58-59 on Checksum verification.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9578,9 +9578,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Diagramming Echo Check. Critiquing echo check drawbacks: doubling bandwidth transmission and ambiguity if error occurred during initial send or echo return.",
               "homework": "Read TB Pg 59–60. Answer: Why is Echo Check rarely used in high-speed networks?",
               "diary": "Answer Echo Check question in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9597,9 +9597,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Distinguishing data entry errors (transposition, phonetic errors) from transmission errors. Calculating ISBN-13 and Modulo 11 check digits.",
               "homework": "Read TB Pg 60–61. Verify check digit for given sample barcode numbers.",
               "diary": "Read TB Pg 60-61. Solve Check Digit problems.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9610,9 +9610,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Tracing ARQ state machine: Positive Acknowledgements (ACK), Negative Acknowledgements (NAK), and timeout-triggered retransmissions.",
               "homework": "Draw ARQ protocol flowchart for both successful transfer and packet loss timeout scenarios.",
               "diary": "Draw ARQ protocol flowchart in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             }
           ]
         },
@@ -9629,9 +9629,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving Cambridge exam-style comparison tables and multi-part error detection problems.",
               "homework": "Revise TB Pg 54–62 thoroughly for Class Test 1.",
               "diary": "Revise Chapter 2.2 for Class Test 1.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9642,9 +9642,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting Class Test 1 on Parity, Checksum, Echo Check, Check Digits, and ARQ.",
               "homework": "Review test questions and reflect on difficult concepts.",
               "diary": "CT 1 completed. Self-review error detection topics.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_1_Answer_Key.pdf"
             }
           ]
         },
@@ -9661,9 +9661,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Defining encryption terminology. Demonstrating shift ciphers and modern mathematical key algorithms.",
               "homework": "Read TB Pg 63–65. Encrypt and decrypt a 20-character secret message using a Caesar cipher key.",
               "diary": "Read TB Pg 63-65 on Encryption basics.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9674,9 +9674,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing why transmitting a shared key across insecure channels compromises symmetric encryption. Exploring brute-force attack complexity.",
               "homework": "Read TB Pg 66–67. Explain the Key Distribution Problem in 4-5 bullet points.",
               "diary": "Summarize Key Distribution Problem in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -9693,9 +9693,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Simulating secure exchange: Public key used for encryption by anyone; matching Private key known ONLY to receiver for decryption.",
               "homework": "Read TB Pg 68–69. Diagram how Alice sends a confidential message to Bob using Bob’s public key.",
               "diary": "Read TB Pg 68-69. Diagram Public/Private key workflow.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9706,9 +9706,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Comparing computational overhead, processing speed, key lengths, and use cases (bulk data vs session key handshake).",
               "homework": "Complete Symmetric vs Asymmetric comparison table in notebook.",
               "diary": "Complete Encryption comparison table.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -9725,9 +9725,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining one-way cryptographic hash functions. Tracing how a sender signs a hash with their private key to guarantee non-repudiation and integrity.",
               "homework": "Read TB Pg 71–72. Explain how Digital Signatures prove message authenticity.",
               "diary": "Read TB Pg 71-72 on Digital Signatures.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9738,9 +9738,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Inspecting SSL/TLS certificate of school web portal in browser. Explaining Certificate Authority (CA) validation and HTTPS padlock icon.",
               "homework": "Read TB Pg 73–74. List 5 pieces of information found inside a Digital Certificate.",
               "diary": "List 5 items inside a Digital Certificate in notebook.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             }
           ]
         },
@@ -9757,9 +9757,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving mixed Cambridge past paper questions under timed exam conditions with immediate teacher debrief.",
               "homework": "Revise full Term 2 syllabus for Class Test 2.",
               "diary": "Final revision for Class Test 2.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/class_sheets/Sec1_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec1/class_sheets/Sec1_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -9770,9 +9770,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting Class Test 2 (Error Detection + Encryption, 25 Marks).",
               "homework": "End of Term 2 reflection and portfolio submission.",
               "diary": "Term 2 Class Test 2 completed successfully.",
-              "bookPageUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "hwFileUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf",
-              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term_Plan_Term2.pdf"
+              "bookPageUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec1/Sec1_IT_Term2_Class_Test_2_Answer_Key.pdf"
             }
           ]
         }
@@ -10954,9 +10954,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing fundamental storage units (bit, nibble, byte). Distinguishing SI metric prefixes (powers of 10: KB, MB, GB) from IEC binary prefixes (powers of 2: KiB, MiB, GiB). Solving storage capacity conversions.",
               "homework": "Read TB Pg 32–34. Complete Section 1 Question 1 in Term 2 Practice Worksheet.",
               "diary": "Read TB Pg 32-34 (KiB vs KB). Complete WS Q1.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -10967,9 +10967,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Deriving the bitmap image file size formula: Width (px) × Height (px) × Colour Depth (bpp). Converting bits to Bytes and Kibibytes (KiB). Guided step-by-step problem solving.",
               "homework": "Read TB Pg 35–37. Complete Section 1 Question 2 (Image File Size) in Worksheet.",
               "diary": "Read TB Pg 35-37. Solve Image File Size Problem WS Q2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -10986,9 +10986,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining sound sampling mechanics (Sample Rate in Hz, Sample Resolution in bits). Deriving the audio size formula for Mono (1 channel) and Stereo (2 channels). Converting to MiB.",
               "homework": "Read TB Pg 38–40. Complete Section 1 Question 3 in Practice Worksheet.",
               "diary": "Read TB Pg 38-40. Solve Sound Math WS Q3.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -10999,9 +10999,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Evaluating trade-offs between Lossy (JPEG, MP3) and Lossless (PNG, FLAC, ZIP). Hand-tracing the Run-Length Encoding (RLE) algorithm on text strings and monochrome bitmap images.",
               "homework": "Read TB Pg 41–44. Complete Section 2 Questions 4 & 5 in Worksheet.",
               "diary": "Read TB Pg 41-44. Complete RLE Worksheet Section 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -11018,9 +11018,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing Even and Odd Parity bits. Demonstrating how Parity Blocks (horizontal row parity + vertical column parity byte) pinpoint the exact flipped bit row and column for auto-correction.",
               "homework": "Read TB Pg 54–57. Solve Section 3 Question 6 (Parity Block Grid) in Worksheet.",
               "diary": "Read TB Pg 54-57. Solve Parity Block Grid WS Q6.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11031,9 +11031,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining how checksums are generated at source and verified at destination. Critiquing Echo Check limitations (bandwidth duplication and double error cancelling).",
               "homework": "Read TB Pg 58–60. Summarize Checksum vs Echo Check in notebook.",
               "diary": "Read TB Pg 58-60 (Checksum & Echo Check).",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             }
           ]
         },
@@ -11050,9 +11050,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Distinguishing transcription errors from transposition errors. Calculating check digits using Modulo 11 weighted algorithms and ISBN-13 barcodes to detect manual data entry mistakes.",
               "homework": "Read TB Pg 60–61. Solve Section 3 Question 7 in Worksheet.",
               "diary": "Read TB Pg 60-61. Complete WS Q7.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11063,9 +11063,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing ARQ communication flow: Positive Acknowledgements (ACK), Negative Acknowledgements (NAK), Timeout timers, and automatic packet re-transmission loops.",
               "homework": "Draw ARQ protocol decision flowchart in computer science notebook.",
               "diary": "Read TB Pg 61-62 (ARQ Protocol). Draw ARQ Flowchart.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Answer_Key.pdf"
             }
           ]
         },
@@ -11082,9 +11082,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Understanding plain text, cryptographic algorithms, cipher text, and shared secret keys. Discussing key exchange vulnerabilities and brute force decryption attacks.",
               "homework": "Read TB Pg 63–67. Solve Section 4 Question 8 in Worksheet.",
               "diary": "Read TB Pg 63-67. Complete WS Q8.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11095,9 +11095,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Exploring public/private key pairs: sender encrypts with recipient public key; recipient decrypts with private key. Explaining hashing, digital signatures for authenticity, and SSL/TLS HTTPS certificates.",
               "homework": "Read TB Pg 68–74. Complete Section 4 Questions 9 & 10 in Worksheet.",
               "diary": "Read TB Pg 68-74. Complete WS Section 4.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -11114,9 +11114,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Timed practice on Cambridge IGCSE / O Level exam questions involving file size calculations (images and sound tracks) and multi-run RLE encoding tables.",
               "homework": "Revise all Chapter 1.3 formulas from Study Material Module 1.",
               "diary": "Revise Ch 1.3 Formulas for Class Test 1.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11127,9 +11127,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving Cambridge exam scenario questions on Parity blocks, Check digits, ARQ protocol failure recovery, and Asymmetric public/private key communications.",
               "homework": "Revise Chapter 2.2 and 2.3 from Study Material Modules 2 & 3.",
               "diary": "Revise Ch 2.2 & 2.3 for upcoming Class Test 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -11146,9 +11146,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Comprehensive rapid-fire revision of all Term 2 concepts: KiB vs KB, image/sound formulas, RLE compression, parity blocks, checksum, ARQ, and asymmetric keys.",
               "homework": "Review complete Study Material. Prepare for Class Tests 1 & 2.",
               "diary": "Final Revision for CT 1 and CT 2 exams.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11159,9 +11159,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting a timed 40-mark mock practice examination under strict exam conditions, followed by immediate mark scheme peer grading and error debrief.",
               "homework": "Review mock exam mistakes and write corrections.",
               "diary": "Review Mock Exam corrections. Exam ready!",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             }
           ]
         },
@@ -11178,9 +11178,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Administering Class Test 1 (25 Marks, 45 Minutes). Scope: Storage measurement, Image/Sound file size math, Lossy/Lossless, and RLE.",
               "homework": "Prepare thoroughly for Class Test 2 (Error Detection & Encryption).",
               "diary": "Class Test 1 completed. Revise Ch 2.2 & 2.3 for CT 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11212,9 +11212,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing fundamental storage units (bit, nibble, byte). Distinguishing SI metric prefixes (powers of 10: KB, MB, GB) from IEC binary prefixes (powers of 2: KiB, MiB, GiB). Solving storage capacity conversions.",
               "homework": "Read TB Pg 32–34. Complete Section 1 Question 1 in Term 2 Practice Worksheet.",
               "diary": "Read TB Pg 32-34 (KiB vs KB). Complete WS Q1.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11225,9 +11225,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Deriving the bitmap image file size formula: Width (px) × Height (px) × Colour Depth (bpp). Converting bits to Bytes and Kibibytes (KiB). Guided step-by-step problem solving.",
               "homework": "Read TB Pg 35–37. Complete Section 1 Question 2 (Image File Size) in Worksheet.",
               "diary": "Read TB Pg 35-37. Solve Image File Size Problem WS Q2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -11244,9 +11244,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining sound sampling mechanics (Sample Rate in Hz, Sample Resolution in bits). Deriving the audio size formula for Mono (1 channel) and Stereo (2 channels). Converting to MiB.",
               "homework": "Read TB Pg 38–40. Complete Section 1 Question 3 in Practice Worksheet.",
               "diary": "Read TB Pg 38-40. Solve Sound Math WS Q3.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_1.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11257,9 +11257,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Evaluating trade-offs between Lossy (JPEG, MP3) and Lossless (PNG, FLAC, ZIP). Hand-tracing the Run-Length Encoding (RLE) algorithm on text strings and monochrome bitmap images.",
               "homework": "Read TB Pg 41–44. Complete Section 2 Questions 4 & 5 in Worksheet.",
               "diary": "Read TB Pg 41-44. Complete RLE Worksheet Section 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_1_Answer_Key.pdf"
             }
           ]
         },
@@ -11276,9 +11276,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing Even and Odd Parity bits. Demonstrating how Parity Blocks (horizontal row parity + vertical column parity byte) pinpoint the exact flipped bit row and column for auto-correction.",
               "homework": "Read TB Pg 54–57. Solve Section 3 Question 6 (Parity Block Grid) in Worksheet.",
               "diary": "Read TB Pg 54-57. Solve Parity Block Grid WS Q6.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11289,9 +11289,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Explaining how checksums are generated at source and verified at destination. Critiquing Echo Check limitations (bandwidth duplication and double error cancelling).",
               "homework": "Read TB Pg 58–60. Summarize Checksum vs Echo Check in notebook.",
               "diary": "Read TB Pg 58-60 (Checksum & Echo Check).",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_2.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             }
           ]
         },
@@ -11308,9 +11308,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Distinguishing transcription errors from transposition errors. Calculating check digits using Modulo 11 weighted algorithms and ISBN-13 barcodes to detect manual data entry mistakes.",
               "homework": "Read TB Pg 60–61. Solve Section 3 Question 7 in Worksheet.",
               "diary": "Read TB Pg 60-61. Complete WS Q7.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_2_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11321,9 +11321,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Analyzing ARQ communication flow: Positive Acknowledgements (ACK), Negative Acknowledgements (NAK), Timeout timers, and automatic packet re-transmission loops.",
               "homework": "Draw ARQ protocol decision flowchart in computer science notebook.",
               "diary": "Read TB Pg 61-62 (ARQ Protocol). Draw ARQ Flowchart.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
+              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Answer_Key.pdf"
             }
           ]
         },
@@ -11340,9 +11340,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Understanding plain text, cryptographic algorithms, cipher text, and shared secret keys. Discussing key exchange vulnerabilities and brute force decryption attacks.",
               "homework": "Read TB Pg 63–67. Solve Section 4 Question 8 in Worksheet.",
               "diary": "Read TB Pg 63-67. Complete WS Q8.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_3.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11353,9 +11353,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Exploring public/private key pairs: sender encrypts with recipient public key; recipient decrypts with private key. Explaining hashing, digital signatures for authenticity, and SSL/TLS HTTPS certificates.",
               "homework": "Read TB Pg 68–74. Complete Section 4 Questions 9 & 10 in Worksheet.",
               "diary": "Read TB Pg 68-74. Complete WS Section 4.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -11372,9 +11372,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Timed practice on Cambridge IGCSE / O Level exam questions involving file size calculations (images and sound tracks) and multi-run RLE encoding tables.",
               "homework": "Revise all Chapter 1.3 formulas from Study Material Module 1.",
               "diary": "Revise Ch 1.3 Formulas for Class Test 1.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11385,9 +11385,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Solving Cambridge exam scenario questions on Parity blocks, Check digits, ARQ protocol failure recovery, and Asymmetric public/private key communications.",
               "homework": "Revise Chapter 2.2 and 2.3 from Study Material Modules 2 & 3.",
               "diary": "Revise Ch 2.2 & 2.3 for upcoming Class Test 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_4.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_3_Answer_Key.pdf"
             }
           ]
         },
@@ -11404,9 +11404,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Comprehensive rapid-fire revision of all Term 2 concepts: KiB vs KB, image/sound formulas, RLE compression, parity blocks, checksum, ARQ, and asymmetric keys.",
               "homework": "Review complete Study Material. Prepare for Class Tests 1 & 2.",
               "diary": "Final Revision for CT 1 and CT 2 exams.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11417,9 +11417,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Conducting a timed 40-mark mock practice examination under strict exam conditions, followed by immediate mark scheme peer grading and error debrief.",
               "homework": "Review mock exam mistakes and write corrections.",
               "diary": "Review Mock Exam corrections. Exam ready!",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Study_Material.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Comprehensive_Worksheet_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             }
           ]
         },
@@ -11436,9 +11436,9 @@ window.SCHOOL_DATA = {
               "inClassActivity": "Administering Class Test 1 (25 Marks, 45 Minutes). Scope: Storage measurement, Image/Sound file size math, Lossy/Lossless, and RLE.",
               "homework": "Prepare thoroughly for Class Test 2 (Error Detection & Encryption).",
               "diary": "Class Test 1 completed. Revise Ch 2.2 & 2.3 for CT 2.",
-              "bookPageUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "hwFileUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Question_Paper.pdf",
-              "answerKeyUrl": "downloads/sec2/Sec2_IT_Term2_Class_Test_1_Answer_Key.pdf"
+              "bookPageUrl": "downloads/sec2/class_sheets/Sec2_Term2_Study_Topic_5.pdf",
+              "hwFileUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Worksheet.pdf",
+              "answerKeyUrl": "downloads/sec2/class_sheets/Sec2_Term2_Part_4_Answer_Key.pdf"
             },
             {
               "dayNumber": 2,
@@ -11456,7 +11456,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 62,
+      "totalFiles": 64,
       "files": [
         {
           "id": "sec2_it_sec_2.docx",
@@ -12147,6 +12147,36 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/sec2/Topic_1.2.3_1.2.4_Data_Compression_Worksheet_Answer_Key.pdf",
           "sourceRelPath": "07 - Secondary 2 (Sec 2)/2026-10-12 - Topic 1.2.3 & 1.2.4 Data Compression (Lossy, Lossless & RLE)/Topic_1.2.3_1.2.4_Data_Compression_Worksheet_Answer_Key.pdf"
+        },
+        {
+          "id": "sec2_Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "name": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "safeName": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "ext": ".docx",
+          "sizeBytes": 10437,
+          "sizeFormatted": "10.2 KB",
+          "category": "worksheet",
+          "badge": "Worksheet",
+          "term": "General",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/sec2/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "sourceRelPath": "07 - Secondary 2 (Sec 2)/2026-10-25 - Topic 1.3 Data Storage, File Calculations & Compression/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx"
+        },
+        {
+          "id": "sec2_Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "name": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "safeName": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 207535,
+          "sizeFormatted": "202.7 KB",
+          "category": "worksheet",
+          "badge": "Worksheet",
+          "term": "General",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/sec2/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "sourceRelPath": "07 - Secondary 2 (Sec 2)/2026-10-25 - Topic 1.3 Data Storage, File Calculations & Compression/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf"
         },
         {
           "id": "sec2_Sec2_IT_Term2_Class_Test_1_Answer_Key.docx",
@@ -13805,7 +13835,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 43,
+      "totalFiles": 45,
       "files": [
         {
           "id": "olevel_Cambridge_IGCSE_and_O_Level_Computer_Science_Second_Edition.pdf",
@@ -14451,6 +14481,36 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/olevel/Topic_1.2.3_1.2.4_Data_Compression_Worksheet_Answer_Key.pdf",
           "sourceRelPath": "08 - O Level Computer Science (2023-2026)/2026-10-12 - Topic 1.2.3 & 1.2.4 Data Compression (Lossy, Lossless & RLE)/Topic_1.2.3_1.2.4_Data_Compression_Worksheet_Answer_Key.pdf"
+        },
+        {
+          "id": "olevel_Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "name": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "safeName": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "ext": ".docx",
+          "sizeBytes": 10437,
+          "sizeFormatted": "10.2 KB",
+          "category": "worksheet",
+          "badge": "Worksheet",
+          "term": "General",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/olevel/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx",
+          "sourceRelPath": "08 - O Level Computer Science (2023-2026)/2026-10-25 - Topic 1.3 Data Storage, File Calculations & Compression/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.docx"
+        },
+        {
+          "id": "olevel_Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "name": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "safeName": "Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 207535,
+          "sizeFormatted": "202.7 KB",
+          "category": "worksheet",
+          "badge": "Worksheet",
+          "term": "General",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/olevel/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf",
+          "sourceRelPath": "08 - O Level Computer Science (2023-2026)/2026-10-25 - Topic 1.3 Data Storage, File Calculations & Compression/Topic_1.3_Data_Storage_Calculations_and_Compression_Master_Study_Guide.pdf"
         }
       ]
     }

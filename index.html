@@ -405,67 +405,94 @@
     </div>
   </div>
 
-  <!-- IN-BROWSER PREVIEW MODAL (VIEW WITHOUT DOWNLOADING) -->
-  <div id="previewModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-2 sm:p-4 bg-slate-900/80 backdrop-blur-sm transition-all duration-200" onclick="handlePreviewBackdropClick(event)">
-    <div class="relative w-full max-w-5xl h-[92vh] bg-white rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-700/30" onclick="event.stopPropagation()">
-      
+  <!-- OFFICIAL SINGAPORE SCHOOL KINDERLAND PDF VIEWER MODAL (MOZILLA PDF.JS IN-MODAL) -->
+  <div id="pdfViewerModal" class="hidden fixed inset-0 z-[999999] flex items-center justify-center p-2 sm:p-4 md:p-6 bg-black/80 backdrop-blur-md transition-all duration-300" onclick="handlePdfModalBackdrop(event)">
+    <div class="bg-white w-full max-w-5xl h-[92vh] max-h-[920px] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-white/20" onclick="event.stopPropagation()">
       <!-- Modal Header -->
-      <div class="px-5 py-3.5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white flex items-center justify-between gap-3 shrink-0">
-        <div class="flex items-center gap-3 min-w-0">
-          <div id="previewFileIcon" class="w-9 h-9 rounded-xl bg-indigo-600/40 border border-indigo-400/30 flex items-center justify-center text-lg shrink-0">
-            📄
-          </div>
+      <div class="flex flex-wrap items-center justify-between px-4 sm:px-6 py-3.5 bg-[#006F3D] text-white border-b border-white/10 gap-2 shrink-0">
+        <div class="flex items-center gap-2.5 min-w-0">
+          <span class="text-2xl shrink-0">📑</span>
           <div class="min-w-0">
-            <div class="flex items-center gap-2 flex-wrap">
-              <h3 id="previewFileName" class="text-xs sm:text-sm font-bold text-white truncate max-w-sm sm:max-w-md">
-                Document Preview
-              </h3>
-              <span id="previewFileBadge" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-500/30 text-indigo-200 border border-indigo-400/20">
-                PDF
-              </span>
-            </div>
-            <p id="previewFileInfo" class="text-[11px] text-indigo-200/70 truncate">
-              Preview Mode • Viewing in Browser
-            </p>
+            <h3 id="pdfModalTitle" class="font-bold text-sm sm:text-base leading-tight truncate max-w-xs sm:max-w-md">Document Viewer</h3>
+            <p id="pdfModalSubtitle" class="text-[11px] text-white/80 hidden sm:block truncate">Singapore School Kinderland Official Academic Document</p>
           </div>
         </div>
 
-        <!-- Action Buttons -->
+        <!-- Page & Zoom Toolbar -->
+        <div id="pdfToolbarGroup" class="flex items-center gap-1.5 bg-black/25 px-2.5 py-1.5 rounded-xl border border-white/15 text-xs">
+          <button onclick="prevPdfPage()" class="hover:bg-white/20 px-2 py-0.5 rounded transition font-bold" title="Previous Page">
+            ◀
+          </button>
+          <span class="px-1 text-white font-medium">Page <span id="pdfCurrentPage" class="font-bold text-amber-300">1</span> / <span id="pdfTotalPages">1</span></span>
+          <button onclick="nextPdfPage()" class="hover:bg-white/20 px-2 py-0.5 rounded transition font-bold" title="Next Page">
+            ▶
+          </button>
+          <div class="w-px h-4 bg-white/20 mx-1"></div>
+          <button onclick="zoomOutPdf()" class="hover:bg-white/20 px-1.5 py-0.5 rounded transition font-bold" title="Zoom Out">
+            −
+          </button>
+          <span id="pdfZoomLevel" class="text-[11px] font-mono text-white/90 w-10 text-center">100%</span>
+          <button onclick="zoomInPdf()" class="hover:bg-white/20 px-1.5 py-0.5 rounded transition font-bold" title="Zoom In">
+            +
+          </button>
+        </div>
+
+        <!-- Actions -->
         <div class="flex items-center gap-2 shrink-0">
-          <!-- Open in Dedicated Tab -->
-          <a id="previewNewTabBtn" href="#" target="_blank" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-all border border-white/10" title="Open in new browser tab">
-            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-            <span>Full Tab</span>
-          </a>
-          
-          <!-- Direct Download Button -->
-          <a id="previewDownloadBtn" href="#" download class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-sm">
+          <a id="pdfModalDownloadBtn" href="#" download class="inline-flex items-center gap-1.5 bg-[#F39200] hover:bg-[#d98200] text-white px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-semibold transition shadow-md" title="Download Document">
             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
             <span>Download</span>
           </a>
-
-          <!-- Close Button -->
-          <button onclick="closePreviewModal()" class="w-8 h-8 rounded-xl bg-white/10 hover:bg-rose-600 text-white flex items-center justify-center transition-all ml-1" title="Close Preview (Esc)">
+          <button onclick="closePdfModal()" class="w-8 h-8 flex items-center justify-center rounded-xl bg-white/15 hover:bg-white/25 text-white transition ml-1" aria-label="Close modal">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>
           </button>
         </div>
       </div>
 
-      <!-- Banner Notice (for converted DOCX or info) -->
-      <div id="previewBannerNotice" class="hidden px-4 py-2 bg-amber-50 border-b border-amber-200 text-amber-900 text-xs flex items-center justify-between">
-        <span id="previewBannerText">👁️ Showing instant PDF preview of this document.</span>
-        <span class="text-[11px] text-amber-700 font-medium">Click "Download" for the editable Microsoft Word file</span>
+      <!-- Banner for docx preview notice -->
+      <div id="pdfModalNotice" class="hidden px-4 py-2 bg-amber-50 border-b border-amber-200 text-amber-900 text-xs flex items-center justify-between shrink-0">
+        <span id="pdfModalNoticeText">👁️ Showing instant PDF preview of this document.</span>
+        <span class="text-[11px] text-amber-700 font-medium">Click "Download" for editable Word version</span>
       </div>
 
-      <!-- Modal Body (Content Viewer) -->
-      <div id="previewModalBody" class="flex-1 bg-slate-100 overflow-hidden flex items-center justify-center relative p-1 sm:p-2">
-        <!-- Content injected dynamically -->
+      <!-- Modal Body / High-Def Canvas -->
+      <div id="pdfModalContainer" class="flex-1 bg-[#525659] relative overflow-auto p-2 sm:p-4 flex flex-col items-center justify-start">
+        <!-- Loading Indicator -->
+        <div id="pdfLoadingIndicator" class="flex flex-col items-center justify-center h-full my-auto text-white space-y-3 py-16">
+          <div class="w-10 h-10 border-4 border-white/20 border-t-[#F39200] rounded-full animate-spin"></div>
+          <p class="text-sm font-medium">Loading document preview...</p>
+        </div>
+
+        <!-- Error Box -->
+        <div id="pdfErrorBox" class="hidden my-auto bg-white rounded-2xl p-8 max-w-md text-center shadow-xl space-y-4">
+          <span class="text-4xl block">⚠️</span>
+          <h4 class="font-bold text-gray-800 text-base">Unable to display document directly</h4>
+          <p class="text-xs text-gray-500 leading-relaxed">This document could not be previewed directly in this window.</p>
+          <a id="pdfFallbackDownloadBtn" href="#" download class="inline-flex items-center gap-2 bg-[#006F3D] text-white px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-[#005a32] transition">
+            Download File to Device
+          </a>
+        </div>
+
+        <!-- PDF Canvas Container -->
+        <div class="shadow-2xl my-auto transition-all duration-200 flex justify-center">
+          <canvas id="pdfCanvas" class="hidden max-w-full rounded-sm bg-white"></canvas>
+        </div>
+
+        <!-- Image Container for Photos -->
+        <div id="imagePreviewContainer" class="hidden my-auto max-w-full flex justify-center">
+          <img id="imagePreviewElement" src="" alt="Photo" class="max-h-[80vh] max-w-full object-contain rounded-xl shadow-2xl">
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- LOAD PDF.JS FOR IN-BROWSER MOBILE PDF RENDERING (ZERO DOWNLOADS) -->
-  <script src="pdf.min.js"></script>
+  <!-- LOAD MOZILLA PDF.JS (OFFICIAL KINDERLAND NOTICEBOARD ENGINE) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    if (!window.pdfjsLib) {
+      document.write('<script src="pdf.min.js"><\/script>');
+    }
+  </script>
   <script>
     if (window.pdfjsLib) {
       window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
