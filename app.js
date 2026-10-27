@@ -180,7 +180,7 @@ function switchTerm(term) {
 
 function switchTab(tab) {
   currentTab = tab;
-  const tabs = ['weekly', 'exams', 'worksheets', 'allFiles'];
+  const tabs = ['exams', 'worksheets', 'allFiles'];
   
   tabs.forEach(t => {
     const btn = document.getElementById(`tab${t.charAt(0).toUpperCase() + t.slice(1)}Btn`);
@@ -188,16 +188,32 @@ function switchTab(tab) {
     
     if (t === tab) {
       if (btn) {
-        btn.className = "flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold border transition-all whitespace-nowrap bg-indigo-600 text-white border-indigo-600 shadow-sm";
+        btn.className = "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all whitespace-nowrap bg-indigo-600 text-white border-indigo-600 shadow-sm";
       }
       if (view) view.classList.remove('hidden');
     } else {
       if (btn) {
-        btn.className = "flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all whitespace-nowrap bg-white text-slate-700 border-slate-200 hover:bg-slate-50";
+        btn.className = "flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs font-semibold border transition-all whitespace-nowrap bg-white text-slate-700 border-slate-200 hover:bg-slate-50";
       }
       if (view) view.classList.add('hidden');
     }
   });
+}
+
+function toggleAllFilesSection() {
+  const el = document.getElementById('collapsibleAllFiles');
+  const textEl = document.getElementById('toggleAllFilesText');
+  const iconEl = document.getElementById('toggleAllFilesIcon');
+  if (!el) return;
+  if (el.classList.contains('hidden')) {
+    el.classList.remove('hidden');
+    if (textEl) textEl.textContent = 'Hide File Archive';
+    if (iconEl) iconEl.textContent = '▲';
+  } else {
+    el.classList.add('hidden');
+    if (textEl) textEl.textContent = 'Browse All Files';
+    if (iconEl) iconEl.textContent = '▼';
+  }
 }
 
 function getCurrentClassData() {
@@ -227,10 +243,250 @@ function renderCurrentClass() {
   bannerExamCountEl.textContent = `${examFiles.length} Available`;
 
   renderSyllabusBar(cls);
-  renderWeeklyPlan(cls);
+  renderClassThreeOptions(cls);
   renderExams(examFiles, cls);
   renderWorksheets(worksheetFiles, cls);
   renderAllFiles(termFiles);
+}
+
+// ============================================================================
+// 3 CORE ACADEMIC OPTIONS (MAIN DASHBOARD ENGINE)
+// 1. Student Study Material & Worksheet | 2. CT 1 Package | 3. CT 2 Package
+// ============================================================================
+function renderClassThreeOptions(cls) {
+  const container = document.getElementById('classThreeOptionsContainer');
+  if (!container) return;
+
+  const files = cls.files || [];
+  const termFiles = files.filter(f => currentTerm === 'Term 2' ? (f.term === 'Term 2') : (f.term === 'Term 1' || f.term === 'General'));
+
+  // 1. Study Material & Practice Worksheet
+  let studyPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Study_Material') || f.name.includes('Study_Guide') || f.name.includes('Workbook_16Pages') || f.name.includes('Master_Workbook')));
+  if (!studyPdf) studyPdf = termFiles.find(f => f.ext === '.pdf' && f.name.includes('Worksheet'));
+  let studyDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Study_Material') || f.name.includes('Study_Guide') || f.name.includes('Workbook_16Pages') || f.name.includes('Master_Workbook')));
+  if (!studyDocx) studyDocx = termFiles.find(f => f.ext === '.docx' && f.name.includes('Worksheet'));
+
+  let studyKeyPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Worksheet_Answer_Key') || f.name.includes('Workbook_Answer_Key')));
+  let studyKeyDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Worksheet_Answer_Key') || f.name.includes('Workbook_Answer_Key')));
+
+  // 2. Class Test 1
+  let ct1QpPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Class_Test_1_Question_Paper') || f.name.includes('CT_1_Question_Paper') || f.name.includes('T1_CT_1_') || f.name.includes('CT_1_') || f.name.includes('CA1_Part_1')) && !f.name.includes('Answer_Key'));
+  let ct1QpDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Class_Test_1_Question_Paper') || f.name.includes('CT_1_Question_Paper') || f.name.includes('T1_CT_1_') || f.name.includes('CT_1_') || f.name.includes('CA1_Part_1')) && !f.name.includes('Answer_Key'));
+  let ct1KeyPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Class_Test_1_Answer_Key') || f.name.includes('CT_1_Answer_Key') || f.name.includes('T1_CT_1_IT_-_Answer_Key') || f.name.includes('CA1_Part_1_Answer_Key')));
+  let ct1KeyDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Class_Test_1_Answer_Key') || f.name.includes('CT_1_Answer_Key') || f.name.includes('T1_CT_1_IT_-_Answer_Key') || f.name.includes('CA1_Part_1_Answer_Key')));
+
+  // 3. Class Test 2
+  let ct2QpPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Class_Test_2_Question_Paper') || f.name.includes('CT_2_Question_Paper') || f.name.includes('T1_CT_2_') || f.name.includes('CT_2_') || f.name.includes('CA1_Part_2')) && !f.name.includes('Answer_Key'));
+  let ct2QpDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Class_Test_2_Question_Paper') || f.name.includes('CT_2_Question_Paper') || f.name.includes('T1_CT_2_') || f.name.includes('CT_2_') || f.name.includes('CA1_Part_2')) && !f.name.includes('Answer_Key'));
+  let ct2KeyPdf = termFiles.find(f => f.ext === '.pdf' && (f.name.includes('Class_Test_2_Answer_Key') || f.name.includes('CT_2_Answer_Key') || f.name.includes('T1_CT_2_IT_-_Answer_Key') || f.name.includes('CA1_Part_2_Answer_Key') || f.name.includes('Class_Test_2_Answer_Key')));
+  let ct2KeyDocx = termFiles.find(f => f.ext === '.docx' && (f.name.includes('Class_Test_2_Answer_Key') || f.name.includes('CT_2_Answer_Key') || f.name.includes('T1_CT_2_IT_-_Answer_Key') || f.name.includes('CA1_Part_2_Answer_Key')));
+
+  // Fallbacks if filenames have different conventions
+  if (!studyPdf && termFiles.length > 0) studyPdf = termFiles[0];
+  if (!ct1QpPdf && termFiles.length > 1) ct1QpPdf = termFiles.find(f => f.category === 'exam');
+
+  // Descriptions per class
+  let studyDesc = 'All-in-One Chapter Study Guides, Diagrams & Practice Exercises';
+  let ct1Desc = '1st Half Syllabus Examination (25/30 Marks)';
+  let ct2Desc = '2nd Half Syllabus Examination (25/30 Marks)';
+
+  if (cls.id === 'p1') {
+    studyDesc = 'Chapter 4: Parts of Computer & Chapter 5: Introduction to Logic (16-Page Practice Module)';
+    ct1Desc = 'Chapter 4: Parts of a Computer (Monitor, CPU, Keyboard, Mouse, Printer, Laptop vs Desktop)';
+    ct2Desc = 'Chapter 5: Introduction to Logic (Actions & Reasons, Logical Pairs, Categories, Odd One Out)';
+  } else if (cls.id === 'p2') {
+    studyDesc = 'Chapter 2B: Keyboard, Chapter 3: Windows 10 OS & Chapter 4: Algorithm (16-Page Module)';
+    ct1Desc = 'Chapter 2B: Keyboard & Notepad + Chapter 3: Windows 10 OS Desktop & File System';
+    ct2Desc = 'Chapter 3: Desktop Customization + Chapter 4: Algorithm & Step-by-Step Logic';
+  } else if (cls.id === 'p3') {
+    studyDesc = 'Chapter 3: Networks, Chapter 4: E-Commerce & Chapter 5A: MS Word (16-Page Module)';
+    ct1Desc = 'Chapter 3: Internet & Networks (LAN/WAN, URLs) + Chapter 4: E-Commerce (B2C, Security)';
+    ct2Desc = 'Chapter 5A: MS Word Formatting (Ribbon, Cut/Copy/Paste, Find/Replace, Alignment, Bullets)';
+  } else if (cls.id === 'p4') {
+    studyDesc = 'Grade 4 Master Learning Guide (Computer Networks, E-Commerce, MS Word Formatting)';
+    ct1Desc = 'Chapter 3: Computer Networks & URLs + Chapter 4: E-Commerce Models & Cyber Safety';
+    ct2Desc = 'Chapter 5A: Advanced MS Word Formatting, Layout, Bulleted Lists, Proofreading & Ethics';
+  } else if (cls.id === 'p6') {
+    studyDesc = 'OpenOffice Suite Guide: Writer, Impress Presentations, Calc Spreadsheets & Base DBMS';
+    ct1Desc = 'Chapter 2: OpenOffice Writer (Margins, Spacing, Tables) & Impress (Slide Transitions)';
+    ct2Desc = 'Chapter 3: OpenOffice Calc (Formulas, Functions SUM/AVG) & Base (Tables, Fields, Primary Key)';
+  } else if (cls.id === 'sec1') {
+    studyDesc = 'Cambridge IGCSE Computer Science: Topic 2 Data Transmission, Error Checking & Encryption';
+    ct1Desc = 'Topic 2.2 Methods of Error Detection: Parity, Checksum, Echo Check, Check Digits, ARQ';
+    ct2Desc = 'Topic 2.3 Encryption: Symmetric/Asymmetric, Public/Private Keys, Hashes, SSL/TLS';
+  } else if (cls.id === 'sec2') {
+    studyDesc = 'Cambridge IGCSE Computer Science: Topic 1.3 Data Storage & Topic 2 Data Transmission';
+    ct1Desc = 'Topic 1.3 Data Storage, File Calculations (Sound/Image/Text) & Compression (Lossy/Lossless, RLE)';
+    ct2Desc = 'Topic 2.2 Error Detection Methods & Topic 2.3 Encryption Protocols & Digital Certificates';
+  } else if (cls.id === 'olevel') {
+    studyDesc = 'Cambridge 0478/2210 Second Edition: Topic 2 Data Transmission & Topic 3 Hardware';
+    ct1Desc = 'Topic 2.1 Types and Methods of Data Transmission: Packets, Serial vs Parallel, Direction modes, USB';
+    ct2Desc = 'Topic 2.2 Error Detection (Parity, Checksum, ARQ) & Topic 2.3 Symmetric/Asymmetric Encryption';
+  }
+
+  container.innerHTML = `
+    <!-- Top Indicator -->
+    <div class="flex items-center justify-between pb-1">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">⭐</span>
+        <h3 class="text-sm sm:text-base font-extrabold text-slate-900">
+          ${cls.name} — ${currentTerm} Academic Core Hub (3 Essential Options)
+        </h3>
+      </div>
+      <span class="hidden sm:inline-block px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
+        100% Ready for Classroom & Exam
+      </span>
+    </div>
+
+    <!-- 3 Core Cards Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+
+      <!-- OPTION 1: STUDENT STUDY MATERIAL & WORKSHEET -->
+      <div class="bg-gradient-to-br from-blue-50/90 via-sky-50/70 to-indigo-50/90 border border-blue-200/90 rounded-3xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="w-10 h-10 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-xl shadow-md">📘</span>
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-blue-100 text-blue-800 border border-blue-200">
+              Option 1 · Learning Pack
+            </span>
+          </div>
+          <h4 class="text-base font-extrabold text-slate-900 mb-1">
+            Student Study Material & Practice Worksheet
+          </h4>
+          <p class="text-[11px] text-blue-900 font-semibold mb-2">
+            স্টুডেন্ট স্টাডি ম্যাটেরিয়াল ও প্র্যাকটিস শিট
+          </p>
+          <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+            ${studyDesc}
+          </p>
+        </div>
+
+        <div class="space-y-2 pt-3 border-t border-blue-200/60">
+          ${studyPdf ? `
+            <button onclick="openPreview('${safeAttr(studyPdf.url)}', '${safeAttr(studyPdf.name)}', 'Study Material', '${safeAttr(cls.name + ' • ' + currentTerm)}')" class="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>👁️ Preview Study Material</span>
+            </button>
+          ` : ''}
+
+          ${studyKeyPdf ? `
+            <button onclick="openPreview('${safeAttr(studyKeyPdf.url)}', '${safeAttr(studyKeyPdf.name)}', 'Answer Key', '${safeAttr(cls.name + ' • Solution')}')" class="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>🔑 Preview Answer Key / Solutions</span>
+            </button>
+          ` : ''}
+
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            ${studyPdf ? `
+              <a href="${studyPdf.url}" download="${studyPdf.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 text-[11px] font-bold transition shadow-2xs">
+                <span>📥 PDF</span>
+              </a>
+            ` : ''}
+            ${studyDocx ? `
+              <a href="${studyDocx.url}" download="${studyDocx.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-blue-800 border border-blue-200 text-[11px] font-bold transition shadow-2xs">
+                <span>📝 Word</span>
+              </a>
+            ` : ''}
+          </div>
+        </div>
+      </div>
+
+      <!-- OPTION 2: CLASS TEST 1 (CT 1) -->
+      <div class="bg-gradient-to-br from-emerald-50/90 via-teal-50/70 to-green-50/90 border border-emerald-200/90 rounded-3xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="w-10 h-10 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-xl shadow-md">🎯</span>
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
+              Option 2 · 1st Half Exam
+            </span>
+          </div>
+          <h4 class="text-base font-extrabold text-slate-900 mb-1">
+            Class Test 1 (CT 1) Package
+          </h4>
+          <p class="text-[11px] text-emerald-900 font-semibold mb-2">
+            সিটি ১ - প্রশ্নপত্র ও পূর্ণাঙ্গ সমাধান
+          </p>
+          <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+            ${ct1Desc}
+          </p>
+        </div>
+
+        <div class="space-y-2 pt-3 border-t border-emerald-200/60">
+          ${ct1QpPdf ? `
+            <button onclick="openPreview('${safeAttr(ct1QpPdf.url)}', '${safeAttr(ct1QpPdf.name)}', 'CT 1 Question Paper', '${safeAttr(cls.name + ' • 25 Marks')}')" class="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>👁️ Preview CT 1 Question Paper</span>
+            </button>
+          ` : ''}
+
+          ${ct1KeyPdf ? `
+            <button onclick="openPreview('${safeAttr(ct1KeyPdf.url)}', '${safeAttr(ct1KeyPdf.name)}', 'CT 1 Answer Key', '${safeAttr(cls.name + ' • Marking Scheme')}')" class="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>🔑 Preview CT 1 Answer Key</span>
+            </button>
+          ` : ''}
+
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            ${ct1QpPdf ? `
+              <a href="${ct1QpPdf.url}" download="${ct1QpPdf.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 text-[11px] font-bold transition shadow-2xs">
+                <span>📥 QP PDF</span>
+              </a>
+            ` : ''}
+            ${ct1QpDocx ? `
+              <a href="${ct1QpDocx.url}" download="${ct1QpDocx.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-emerald-800 border border-emerald-200 text-[11px] font-bold transition shadow-2xs">
+                <span>📝 QP Word</span>
+              </a>
+            ` : ''}
+          </div>
+        </div>
+      </div>
+
+      <!-- OPTION 3: CLASS TEST 2 (CT 2) -->
+      <div class="bg-gradient-to-br from-purple-50/90 via-fuchsia-50/70 to-rose-50/90 border border-purple-200/90 rounded-3xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <span class="w-10 h-10 rounded-2xl bg-purple-600 text-white flex items-center justify-center text-xl shadow-md">🏆</span>
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-purple-100 text-purple-800 border border-purple-200">
+              Option 3 · 2nd Half Exam
+            </span>
+          </div>
+          <h4 class="text-base font-extrabold text-slate-900 mb-1">
+            Class Test 2 (CT 2) Package
+          </h4>
+          <p class="text-[11px] text-purple-900 font-semibold mb-2">
+            সিটি ২ - প্রশ্নপত্র ও পূর্ণাঙ্গ সমাধান
+          </p>
+          <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+            ${ct2Desc}
+          </p>
+        </div>
+
+        <div class="space-y-2 pt-3 border-t border-purple-200/60">
+          ${ct2QpPdf ? `
+            <button onclick="openPreview('${safeAttr(ct2QpPdf.url)}', '${safeAttr(ct2QpPdf.name)}', 'CT 2 Question Paper', '${safeAttr(cls.name + ' • 25 Marks')}')" class="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>👁️ Preview CT 2 Question Paper</span>
+            </button>
+          ` : ''}
+
+          ${ct2KeyPdf ? `
+            <button onclick="openPreview('${safeAttr(ct2KeyPdf.url)}', '${safeAttr(ct2KeyPdf.name)}', 'CT 2 Answer Key', '${safeAttr(cls.name + ' • Marking Scheme')}')" class="w-full flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-rose-700 hover:bg-rose-800 text-white text-xs font-bold transition shadow-sm active:scale-98">
+              <span>🔑 Preview CT 2 Answer Key</span>
+            </button>
+          ` : ''}
+
+          <div class="grid grid-cols-2 gap-2 pt-1">
+            ${ct2QpPdf ? `
+              <a href="${ct2QpPdf.url}" download="${ct2QpPdf.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-800 border border-slate-300 text-[11px] font-bold transition shadow-2xs">
+                <span>📥 QP PDF</span>
+              </a>
+            ` : ''}
+            ${ct2QpDocx ? `
+              <a href="${ct2QpDocx.url}" download="${ct2QpDocx.name}" class="flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-purple-800 border border-purple-200 text-[11px] font-bold transition shadow-2xs">
+                <span>📝 QP Word</span>
+              </a>
+            ` : ''}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  `;
 }
 
 // RENDER DEDICATED TERM PLAN & SYLLABUS BAR
