@@ -3,7 +3,7 @@ window.SCHOOL_DATA = {
   "title": "Teacher & Academic Resource Portal",
   "currentTerm": "Term 2",
   "academicYear": "2026-2027",
-  "lastUpdated": "2026-10-27T03:42:16.680Z",
+  "lastUpdated": "2026-10-27T07:22:39.482Z",
   "classes": [
     {
       "id": "p1",
@@ -797,7 +797,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 46,
+      "totalFiles": 47,
       "files": [
         {
           "id": "p1_P1_T1_CT_1_English.docx",
@@ -1488,6 +1488,21 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/p1/WhatsApp_Image_2026-10-07_at_2.35.45_PM.jpeg",
           "sourceRelPath": "01 - Primary 1/term 2/Book page photo term 2 p1/WhatsApp Image 2026-10-07 at 2.35.45 PM.jpeg"
+        },
+        {
+          "id": "p1_Click_Start_Level_1_Textbook_Full_Pages.pdf",
+          "name": "Click_Start_Level_1_Textbook_Full_Pages.pdf",
+          "safeName": "Click_Start_Level_1_Textbook_Full_Pages.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 1610287,
+          "sizeFormatted": "1.5 MB",
+          "category": "reference",
+          "badge": "Reference Book / Page",
+          "term": "Term 2",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/p1/Click_Start_Level_1_Textbook_Full_Pages.pdf",
+          "sourceRelPath": "01 - Primary 1/term 2/Click_Start_Level_1_Textbook_Full_Pages.pdf"
         }
       ]
     },
@@ -2282,7 +2297,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 53,
+      "totalFiles": 54,
       "files": [
         {
           "id": "p2_P2_T1_CT_1_IT_-_Answer_Key.docx",
@@ -3063,6 +3078,21 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/p2/WhatsApp_Image_2026-10-07_at_11.29.01_AM.jpeg",
           "sourceRelPath": "02 - Primary 2/Term 2/Book page photo term 2/WhatsApp Image 2026-10-07 at 11.29.01 AM.jpeg"
+        },
+        {
+          "id": "p2_Click_Start_Level_2_Textbook_Full_Pages.pdf",
+          "name": "Click_Start_Level_2_Textbook_Full_Pages.pdf",
+          "safeName": "Click_Start_Level_2_Textbook_Full_Pages.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 1989666,
+          "sizeFormatted": "1.9 MB",
+          "category": "reference",
+          "badge": "Reference Book / Page",
+          "term": "Term 2",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/p2/Click_Start_Level_2_Textbook_Full_Pages.pdf",
+          "sourceRelPath": "02 - Primary 2/Term 2/Click_Start_Level_2_Textbook_Full_Pages.pdf"
         },
         {
           "id": "p2____T1_CT_1_IT_-_Answer_Key.docx",
@@ -3873,7 +3903,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 66,
+      "totalFiles": 67,
       "files": [
         {
           "id": "p3_IT_Term_Plan_P3_Term1.docx",
@@ -4579,6 +4609,21 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/p3/WhatsApp_Image_2026-10-07_at_11.34.45_AM.jpeg",
           "sourceRelPath": "03 - Primary 3/Term 2/Book page photo term 2 p3/WhatsApp Image 2026-10-07 at 11.34.45 AM.jpeg"
+        },
+        {
+          "id": "p3_Click_Start_Level_3_Textbook_Full_Pages.pdf",
+          "name": "Click_Start_Level_3_Textbook_Full_Pages.pdf",
+          "safeName": "Click_Start_Level_3_Textbook_Full_Pages.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 1717413,
+          "sizeFormatted": "1.6 MB",
+          "category": "reference",
+          "badge": "Reference Book / Page",
+          "term": "Term 2",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/p3/Click_Start_Level_3_Textbook_Full_Pages.pdf",
+          "sourceRelPath": "03 - Primary 3/Term 2/Click_Start_Level_3_Textbook_Full_Pages.pdf"
         },
         {
           "id": "p3____T1_CT_1_IT_-_Answer_Key.docx",
@@ -7603,7 +7648,7 @@ window.SCHOOL_DATA = {
           ]
         }
       ],
-      "totalFiles": 105,
+      "totalFiles": 106,
       "files": [
         {
           "id": "p6_IT_Term_Plan_P6_Term1.docx",
@@ -9179,6 +9224,21 @@ window.SCHOOL_DATA = {
           "examType": null,
           "url": "downloads/p6/WhatsApp_Image_2026-10-07_at_11.40.57_AM.jpeg",
           "sourceRelPath": "05 - Primary 6/term 2/Book page photo term 2 p6/WhatsApp Image 2026-10-07 at 11.40.57 AM.jpeg"
+        },
+        {
+          "id": "p6_Click_Start_Level_6_Textbook_Full_Pages.pdf",
+          "name": "Click_Start_Level_6_Textbook_Full_Pages.pdf",
+          "safeName": "Click_Start_Level_6_Textbook_Full_Pages.pdf",
+          "ext": ".pdf",
+          "sizeBytes": 6202845,
+          "sizeFormatted": "5.9 MB",
+          "category": "reference",
+          "badge": "Reference Book / Page",
+          "term": "Term 2",
+          "isAnswerKey": false,
+          "examType": null,
+          "url": "downloads/p6/Click_Start_Level_6_Textbook_Full_Pages.pdf",
+          "sourceRelPath": "05 - Primary 6/term 2/Click_Start_Level_6_Textbook_Full_Pages.pdf"
         }
       ]
     },
